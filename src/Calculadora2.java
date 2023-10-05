@@ -38,9 +38,8 @@ public class Calculadora2 {
 
     public static double resta(double x, double y){
 
-        double c = a + b; //usa a y b global;
-
-        return x - y;
+        a = a + b;
+        return a - b;
     }
 
     public static double multiplicacion(double x, double y){
