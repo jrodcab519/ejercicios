@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 class Gravitacion {
+  static final double CONSTANTE_GRAVITACIONAL = 6.673*(Math.pow(10,-8));
 
   public static void main(String[] args) {
 
@@ -15,15 +16,9 @@ class Gravitacion {
 
     entrada.close();
 
-    double g = 6.673*(Math.pow(10,-8));
-
-    double atraccion =  (g * masa1 * masa2)/Math.pow(distancia,2);
+    double atraccion =  (CONSTANTE_GRAVITACIONAL * masa1 * masa2)/Math.pow(distancia,2);
 
     System.out.println(atraccion + "dinas");
-
-
-
-
 
   }
 
