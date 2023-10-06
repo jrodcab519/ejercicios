@@ -15,7 +15,6 @@ public class PrecioJusto {
         boolean ganador1 = precio1 <= precioJusto && (precio2 > precioJusto || precio1 >= precio2) ? true : false;
         boolean ganador2 = precio2 <= precioJusto && (precio1 > precioJusto || precio2 >= precio1) ? true : false;
 
-
         System.out.printf("J1: %d, J2: %d, Precio: %d. ¿Gana J1? %s ¿Gana J2? %s",
                 precio1, precio2, precioJusto,(ganador1)? "Verdadero":"Falso",(ganador2)? "Verdadero":"Falso");
 
