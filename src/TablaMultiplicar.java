@@ -14,12 +14,12 @@ public class TablaMultiplicar {
 
             if(numero !=-1){
                 System.out.println("Tabla de multiplicar del " + numero+ ":");
-                for (int i=1; i <=10; i++){
-                    int resultado = numero *i;
+                for (int i = 1; i <= 10; i++){
+                    int resultado = numero * i;
                     System.out.println(numero + "x" + i + "=" + resultado);
                 }
             }
-        }while (numero !=-1);
+        } while (numero != -1);
 
         s.close();
     }
