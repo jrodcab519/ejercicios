@@ -41,8 +41,9 @@ public class TablerosAjedrez {
     }
 
     private static void repetir(char c, int veces){
-        while (veces-- > 0){
+        while (veces > 0){
             System.out.print(c);
+            veces--;
         }
     }
 }
