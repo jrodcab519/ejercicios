@@ -31,6 +31,7 @@ public class TablerosAjedrez {
         }
     }
 
+
     private static void pintarborde(int n) {
         System.out.print("+");
         for (int columna = 0; columna < 8; columna++) {
