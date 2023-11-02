@@ -10,9 +10,9 @@ public class AdivinaNumero {
         num1 = (int) (Math.random()*100+1);
 
         int contador = 1;
-
         do {
             System.out.print("Acierta el número (intento " + contador + ");");
+
             num2 = s.nextInt();
 
             if (num1 > num2) {
